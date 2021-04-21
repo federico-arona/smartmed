@@ -178,7 +178,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /**
@@ -236,7 +236,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   color: #626262;
   white-space: nowrap;
   transition: 0.3s;
