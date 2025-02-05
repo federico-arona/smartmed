@@ -92,19 +92,7 @@ button.center{
   margin: -60px 0px 60px;
 }
 
-@media (max-width: 992px) {
-  .button-container {
-    text-align: center;
-    justify-items: center;
-    justify-self: center;
-  }
-  .row{
-    row-gap: 10px;
-  }
-  .move-up{
-    margin: 0;
-  }
-}
+
 
 
 /* From Uiverse.io by ilkhoeri */ 
@@ -254,4 +242,34 @@ button.center{
 .department-card{
   min-height: 150px;
   width: 100%;
+}
+
+
+@media (max-width: 992px) {
+  .button-container {
+    text-align: center;
+    justify-items: center;
+    justify-self: center;
+  }
+  .row{
+    row-gap: 10px;
+  }
+  .move-up{
+    margin: 0;
+  }
+  .media-hide{
+    display: none;
+  }
+  .bottom-0{
+    bottom: unset !important;
+  }
+  .start-0{
+    left: 10px !important;
+  }
+  .end-0{
+    right: 10px! important;
+  }
+  .department-card{
+    min-height: 175px !important;
+  }
 }
