@@ -248,6 +248,11 @@ button.center{
   min-height: 350px;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
 @media (max-width: 992px) {
   .button-container {
     text-align: center;

@@ -35,3 +35,11 @@ function showSlides(n) {
   slides[slideIndex - 1].style.position = "relative";
   dots[slideIndex - 1].classList.add("active");
 }
+
+
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".navbar-fixed-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
