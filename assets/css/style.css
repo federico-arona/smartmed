@@ -244,6 +244,9 @@ button.center{
   width: 100%;
 }
 
+.xl-h-350{
+  min-height: 350px;
+}
 
 @media (max-width: 992px) {
   .button-container {
@@ -271,5 +274,14 @@ button.center{
   }
   .department-card{
     min-height: 175px !important;
+  }
+  .py-5{
+    padding-bottom: 0px !important;
+  }
+  .sm-h-200{
+    min-height: 200px !important;
+  }
+  .bottom-3{
+    padding-bottom: 3rem !important;
   }
 }
