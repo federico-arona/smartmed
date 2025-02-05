@@ -88,6 +88,15 @@ button.center{
   justify-self: center;
 }
 
+@media (max-width: 992px) {
+  button {
+    justify-self: center;
+  }
+  .row{
+    row-gap: 10px;
+  }
+}
+
 
 /* From Uiverse.io by ilkhoeri */ 
 .loader {
