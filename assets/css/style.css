@@ -90,6 +90,8 @@ button.center{
 
 @media (max-width: 992px) {
   button {
+    text-align: center;
+    justify-items: center;
     justify-self: center;
   }
   .row{
