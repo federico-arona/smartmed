@@ -290,6 +290,14 @@ button:hover .arrow:before {
     text-align: center;
     justify-content: center;
   }
+
+    #departments .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
 }
 
 
