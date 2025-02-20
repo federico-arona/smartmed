@@ -245,9 +245,9 @@ button:hover .arrow:before {
   position: relative;
 }
 
-.department-card{
+.department-card {
   min-height: 150px;
-  width: 100%;
+  width: 100%; 
 }
 
 .xl-h-350{
@@ -262,9 +262,6 @@ button:hover .arrow:before {
 @media (max-width: 992px) {
   .row{
     row-gap: 10px;
-  }
-  .move-up{
-    margin: 0;
   }
   .media-hide{
     display: none;
@@ -299,6 +296,17 @@ button:hover .arrow:before {
     font-size: 50px;
   }
 
+  .loader{
+    max-height: 15vh;
+  }
+  .department-card {
+    min-height: 175px !important;
+  }
+
+  .move-up {
+    margin: 0;
+  }
+
   #departments .col-md-6 {
     display: flex;
     flex-direction: column;
@@ -306,22 +314,27 @@ button:hover .arrow:before {
     text-align: center;
   }
 
-  .loader{
-    max-height: 15vh;
+  /* Make sure the card containers align properly */
+  #departments .col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: center; /* Centers the items */
   }
-  
 }
 
 
 @media (max-width: 768px) {
-
-  .sm-h-200{
+  .sm-h-200 {
     min-height: 120px !important;
   }
-  .department-card{
-    min-height: 100px !important;
+
+  .department-card {
+    min-height: 150px !important;
   }
-  .py-5{
+
+  .py-5 {
     padding-bottom: 30px !important;
   }
 }
