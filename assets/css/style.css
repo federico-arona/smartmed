@@ -258,11 +258,6 @@ button.center{
 }
 
 @media (max-width: 992px) {
-  .button-container {
-    text-align: center;
-    justify-items: center;
-    justify-self: center;
-  }
   .row{
     row-gap: 10px;
   }
