@@ -8,6 +8,10 @@
 
 }
 
+#hero h1{
+  font-size: 70px;
+}
+
 a{
   color: #ffffff00;
 }
@@ -291,11 +295,19 @@ button:hover .arrow:before {
     justify-content: center;
   }
 
+  #hero h1{
+    font-size: 50px;
+  }
+
   #departments .col-md-6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .loader{
+    max-height: 15vh;
   }
   
 }
