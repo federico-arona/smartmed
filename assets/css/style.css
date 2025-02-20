@@ -290,5 +290,18 @@ button:hover .arrow:before {
     text-align: center;
     justify-content: center;
   }
-  
+}
+
+
+@media (max-width: 768px) {
+
+  .sm-h-200{
+    min-height: 120px !important;
+  }
+  .department-card{
+    min-height: 100px !important;
+  }
+  .py-5{
+    padding-bottom: 30px !important;
+  }
 }
