@@ -321,20 +321,7 @@ button:hover .arrow:before {
   }
 
   .loader {
-    max-height: 15vh;  /* Adjust to prevent clipping */
-    width: 100%;  /* Ensure it scales with the container */
-    max-width: 550px;  /* Ensure proper max width */
-    height: 206px;  /* Allow it to resize */
-    overflow: visible !important; /* Ensure it's fully displayed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .loader svg {
-    width: 100%;  /* Ensure it scales properly */
-    max-width: 550px; /* Keep it consistent */
-    height: auto; /* Ensure it maintains aspect ratio */
+    max-height: 15vh;
   }
   
 }
