@@ -109,7 +109,7 @@ button:hover .arrow:before {
   max-width: 550px;
   height: 206px;
   background: transparent none;
-  /*display: flex;*/
+  display: flex;
   align-items: center;
   justify-content: center;
 }
