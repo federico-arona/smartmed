@@ -290,10 +290,5 @@ button:hover .arrow:before {
     text-align: center;
     justify-content: center;
   }
-
-  .button-container {
-    display: flex;
-    justify-content: center;
-  }
   
 }
