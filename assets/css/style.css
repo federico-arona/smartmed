@@ -88,16 +88,14 @@ button:hover .arrow:before {
   right: 0;
 }
 
-button.center{
-  justify-self: center;
-}
-
 .move-up{
   margin: -60px 0px 60px;
 }
 
-
-
+.bg-image{
+  background: no-repeat center center fixed; 
+  background-image: url("../img/bg-grey-waves.jpg");
+}
 
 /* From Uiverse.io by ilkhoeri */ 
 .loader {
@@ -287,5 +285,9 @@ button.center{
   }
   .bottom-3{
     padding-bottom: 3rem !important;
+  }
+  .md-align-center{
+    text-align: center;
+    justify-content: center;
   }
 }
